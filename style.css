@@ -1,0 +1,80 @@
+* {
+  	margin: 0;
+  	padding: 0;
+}
+
+.Logo, .Top_menu {
+ 	display: inline-block;
+ 	margin-right: 60px;
+ 	vertical-align: middle;
+}
+
+.Top_menu li {
+	display: inline-block;
+}
+
+header { 
+	display: flex; 
+	justify-content: center;
+	background: rgba(21, 20, 23, 0);
+	font-size: 40px;
+	box-shadow: 1px -10px 20px black;
+	}
+
+ .Top_menu a { 
+	font-family: arial;
+	font-size:  25px; 
+	color: white;
+	margin-right: 50px;
+	vertical-align: middle;
+	text-decoration: none;
+	transition: 0.3s;
+	}
+
+
+.Top_menu a:hover {
+	transition: 0.3s;
+	color: #895ca1;
+	}
+
+
+.Logo h1 {
+	font-size: 40px;
+	font-family: Comic Sans MS;
+	color: #fff;
+	text-shadow: 1px 3px 10px blue;
+	text-shadow: 3px 3px 3px black;
+
+ 	}
+
+.Logo img {
+	padding-top: 14px;
+	width: 60px;
+	height: 50px;
+	transition: 0.3s;
+	}
+
+.Logo img:hover {
+	width: 65px;
+	height: 55px;
+	transition: 0.4s;
+	}
+
+h1 {
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	}
+
+p { 
+	color: #ababab;
+	font-size: 20px;
+	text-shadow: 1px 1px 2px black;
+ 	}
+
+ #Beginning {
+ 	margin-top: 15px;
+ 	}
+
+#Title {
+	padding-top: 100px;
+	}
