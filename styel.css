@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: #1d1b1f;
+}
+
+
+.Logo, .Top_menu {
+  display: inline-block;
+  margin-right: 60px;
+ vertical-align: middle;
+}
+
+.Top_menu li {
+  display: inline-block;
+}
+
+header { 
+display: flex; 
+justify-content: center;
+background: rgba(21, 20, 23, 0);
+font-size: 45px;
+box-shadow: 1px -10px 20px black;
+
+ }
+
+ .Top_menu a{ 
+ font-family: arial;
+ font-size:  20px; 
+ color: white;
+ margin-right: 50px;
+ vertical-align: middle;
+ text-decoration: none;
+ font-family: Comic Sans MS;
+ transition: 0.3s;
+}
+
+
+.Top_menu a:hover {
+  transition: 0.3s;
+  color: #4f7eff;
+}
+
+
+.Logo h1 {
+  font-size: 40px;
+  font-family: Comic Sans MS;
+  color: #fff;
+  text-shadow: 1px 3px 10px blue;
+  text-shadow: 3px 3px 3px black;
+
+ }
+
+.Logo a {
+  text-decoration: none;
+}
+
+
+@font-face { 
+font-family: Comic Sans MS; 
+src: url();
+
+}
+
+
+@media all and (max-width : 751px) {
+
+header {
+  font-size: 60px;
+}
+
+.Logo, .Top_menu {
+
+  margin-right: 40px;
+}
+
+.Top_menu a {
+  font-size: 34px;
+  margin-right: 30px;
+}
+}
+
+
+
+.spis a {
+  text-align: center;
+  transition: 0.5s;
+ padding-top: 100px;
+ font-family: arial;
+ font-size:  30px; 
+ color: white;
+ margin-right: 100px;
+ vertical-align: middle;
+ text-decoration: none;
+ font-family: Comic Sans MS;
+ width: max-content;
+ display: inline-block;
+
+}
+
+
+
+
+.spis a:hover {
+
+  transition: 0.3s;
+  font-size: 35px;
+  color: #8b07f0;
+  text-shadow: 1px -1px 2px white;
+}
+
+.log img {
+  transition: 0.3s;
+  padding-top: 70px;
+  width: 500px;
+}
+
+.log img:hover {
+  transition: 0.3s;
+  width: 559px;
+}
+
+.log h1 {
+  padding-top: 55px;
+  font-family: Helvetica;
+  color: white;
+  text-shadow: 1px 1px 1px blue;
+}
+
+.log h3 {
+  padding-top: 55px;
+  font-family: Helvetica;
+  color: white;
+  text-shadow: 1px 1px 1px blue;
+}
+
+
+
+
+.spis img {
+  padding-top: 100px;
+  width: 600px;
+  height: 400px;
+  padding-left: 50px;
+}
+
+
+.con h1 {
+    padding-top: 100px;
+  font-family: Helvetica;
+  color: white;
+  text-shadow: 1px 1px 1px blue;
+
+}
+
+
+.con h3 {
+  font-size: 30px;
+  padding-right: 800px;
+  padding-top: 100px;
+  font-family: Helvetica;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+
+
+
+}
+
+
+.con a {
+  text-decoration: none;
+  color: #b8b8b8;
+}
+
+.con {
+  display: flex;
+}
+
+.pp1 {
+  display: flex;
+  margin-top: -320px;
+  margin-left: 45em;
+
+}
+
+.ss {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+
+.rob { 
+margin-top: 80px;
+padding-left: 40px;
+background: rgba(18, 18, 18, 0.6);
+height: 360px;
+width: 700px;
+
+
+ }
+
+.rob a { 
+  text-decoration: none;
+  font-size: 60px;
+color: #a7aba7;
+text-shadow: 1px 1px 1px black;
+font-family: Comic Sans MS
+
+}
+
+
+ .rob img {
+  border-radius: 20px;
+  top: -50px;
+  position: relative;
+  box-shadow: inset 0px 0px 20px 20px #000; 
+ }
+
+
+ .imgg b {
+font-size: 28px;
+top: 100px;
+color: #cdc6d4;
+}
+
+
+.imgg h3 { 
+font-size: 60px;
+color: #a7aba7;
+text-shadow: 1px 1px 1px black;
+font-family: Comic Sans MS
+ }
+
+
+.imgg img { 
+width: 230px;
+height: 230px;
+margin-top: 120px;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+ }
+
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+#sisi {
+  transition: 0.3s;
+  font-size: 30px;
+  color: black;
+  background: rgb(229, 41, 216, 0.6);
+  border-radius: 14px;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+
+#sisi:hover {
+  transition: 0.3s;
+  font-size: 32px;
+  background: rgb(229, 41, 216, 1);
+}
+
+
+
+#pisi {
+   transition: 0.3s;
+  font-size: 30px;
+  color: black;
+  background: rgb(4, 247, 73, 0.6);
+  border-radius: 14px;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+
+#pisi:hover {
+  transition: 0.3s;
+  font-size: 32px;
+    background: rgb(4, 247, 73, 1);
+}
+
+
+
+@font-face {
+
+font-family: "Helvetica"; 
+
+src: url("fonts/Helvetica.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+
+
+.dow {
+
+  margin-top: 80px;
+padding-left: 40px;
+background: rgba(18, 18, 18, 0.6);
+height: 1000px;
+width: 800px;
+
+}
+
+
+
+.dow img {
+  padding-top: 30px;
+}
+
+
+.dow h1 {
+  font-size: 80px;
+  font-family: Arial;
+  color: white;
+  text-shadow: 1px 1px 1px blue;
+  margin-top: -415px;
+  position: absolute;
+  margin-left: 239px;
+
+}
+
+
+
+   .card img { position: relative; }
+   .seven { left: -40px; top: -30px; }
+
+.seven {
+  width: 840px;
+  height: 450px;
+}
+
+
+.three {
+  top: -420px;
+  height: 225px;
+  width: 225px;
+
+
+}
+
+
+#child {
+  text-align: left;
+  margin-top: -220px;
+  font-family: Arial;
+  color: white;
+  text-shadow: 1px 1px 1px blue;
+  font-size: 20px;
+  
+}
+
+
+
+#pisi2  {
+  transition: 0.3s;
+  font-size: 50px;
+  color: black;
+  background: rgb(4, 247, 73, 0.6);
+  border-radius: 14px;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+
+#pisi2:hover {
+    transition: 0.3s;
+    font-size: 55px;
+    background: rgb(4, 247, 73, 1);
+}
+
+
+
+#h1Gimp {
+  left: 420px;
+  margin-top: -440px;
+}
+
+#h1Pxlr {
+  left: 460px;
+}
+
+
+#h1Filmora {
+  left: 397px;
+  text-align: center;
+
+}
