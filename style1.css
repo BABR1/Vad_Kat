@@ -1,0 +1,50 @@
+.Operator, .OperatorPris{
+	
+	width: 1000px;
+	height: auto;
+
+	
+}
+
+.Operator {
+	margin-top: 100px;
+}
+
+
+.OperatorText {
+	display: inline-flex;
+	margin-left: 30px;
+
+}
+
+.OperatorText p {
+	color: white;
+	text-align: left;
+	font-family: Arial;
+	margin-top: -20px;
+}
+
+.OperatorText img {
+	width: 350px;
+	height: auto;
+	margin-top: -50px;
+}
+
+#OperatorTitle {
+	color: white;
+	font-family: Arial;
+	padding-top: 15px;
+	margin-left: 30px;
+}
+
+.OperatorPris  {
+	margin-top: 50px;
+
+	
+}
+
+.OperatorPris p {
+	width: 900px;
+}
+
+
